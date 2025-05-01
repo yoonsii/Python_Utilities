@@ -2,6 +2,8 @@
 
 # find /datadrive/nextcloud/__groupfolders -type f -printf "%TY-%Tm-%Td %TH:%TM %s %p\n" > files_listing.txt
 
+# TODO: Replicate without template
+
 from datetime import datetime, timedelta
 from collections import defaultdict
 
